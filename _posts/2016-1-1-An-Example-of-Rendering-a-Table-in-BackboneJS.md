@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Beginner's Guide To Rendering A Table In Backbone.JS
+title: An Example of Rendering a Table In Backbone.JS
 ---
 
 This is a beginner's guide to making a table in Backbone.js. In this example it will be a table of books with data for the title and author.

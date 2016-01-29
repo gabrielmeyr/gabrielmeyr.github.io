@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Find the right API with Mashape Market
+title: Find the Right API with Mashape Market
 ---
 
 I was looking for a good image tagging and analysis API and found an unexpected treat of a website: [market.mashape.com](http://market.mashape.com). Mashape is apparantly a company that sells software to API providers for a variety of things, but the cool thing about them is their API marketplace.
