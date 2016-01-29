@@ -16,7 +16,7 @@ Here are the files we'll be making:
 
 This is how things will connect together:
 
-![drawing of backbone structure]({{ site.baseurl }}/images/backbone1a.png "(Blue means a transfer of data, green means a transfer of html.)")
+![drawing of backbone structure]({{ site.baseurl }}/images/2016-01/backbone1a.png "(Blue means a transfer of data, green means a transfer of html.)")
 
 ##bookModel.js
 Here's what we'll put in bookModel.js:
@@ -26,7 +26,7 @@ Here's what we'll put in bookModel.js:
     title: 'unknown title',
     author: 'cool person'
   }
-});]({{ site.baseurl }}/images/backbone1b.png )
+});]({{ site.baseurl }}/images/2016-01/backbone1b.png )
 
 We'll use this Book constructor we just made to instantiate a new model for each book we want in our table. The extend method adds our defaults property to the normal Backbone model constructor.
 
@@ -48,7 +48,7 @@ Now let's make our libararyView.js file. It'll be attached to our collection (w
       })
     );
   }
-});]({{ site.baseurl }}/images/backbone1c.png )
+});]({{ site.baseurl }}/images/2016-01/backbone1c.png )
 
 We make this view class by extending the general Backbone View class with three properties: tagname, initialize, and render.
 
@@ -62,7 +62,7 @@ We make this view class by extending the general Backbone View class with three 
 ##bookView.js
 Let's write that bookView.js file now:
 
-![var BookView = Backbone.View.extend({   tagName: 'tr',    template: _.template('&lt;td&gt;&lt;%= title %&gt;&lt;/td&gt;&lt;td&gt;&lt;%= author %&gt;&lt;/td&gt;'),      initialize: function(){     this.render();   },    render: function(){     return this.$el.html(this.template(this.model.attributes));   } });]({{ site.baseurl }}/images/backbone1d.png )
+![var BookView = Backbone.View.extend({   tagName: 'tr',    template: _.template('&lt;td&gt;&lt;%= title %&gt;&lt;/td&gt;&lt;td&gt;&lt;%= author %&gt;&lt;/td&gt;'),      initialize: function(){     this.render();   },    render: function(){     return this.$el.html(this.template(this.model.attributes));   } });]({{ site.baseurl }}/images/2016-01/backbone1d.png )
 
 This looks a lot like our last view file. It has a tagname that specifies that this view will be a table. We also have `initialize` and `render` functions.But now in the `render` function fills in the `&lt;tr&gt;` tag's html by calling our `template` function with our model's attributes (meaning data) as a parameter.
 
@@ -72,7 +72,7 @@ The main idea with this function is you give it an html string and wherever you 
 ##Index.html
 So now we have our model and views set up. Let's write an index file. I'll write comments for the 4 pieces of code we still have to write.
 
-![Table Using Backbone.js]({{ site.baseurl }}/images/backbone1e.png )
+![Table Using Backbone.js]({{ site.baseurl }}/images/2016-01/backbone1e.png )
 
 
 The first thing we need to do now is write code that will make a few book models using our constructor from bookModel.js.
@@ -101,11 +101,11 @@ $('body').append(myLibraryView.render());
 ##Putting It All Together
 Here's what our index file looks like when we add in each of those snippets using a script tag.
 
-![]({{ site.baseurl }}/images/backbone1f.png )
+![]({{ site.baseurl }}/images/2016-01/backbone1f.png )
 
 And we're done! Here's a screenshot of the table this makes:
 
-![Example of what table will look like]({{ site.baseurl }}/images/backbone1g.png )
+![Example of what table will look like]({{ site.baseurl }}/images/2016-01/backbone1g.png )
 
 Congratulations on making it to the end! There's still more to learn if you want to make a full-fledged Backbone.js app, of course, but hopefully this blog post has helped you understand how to use models, collections, and views in a simple way.
 
