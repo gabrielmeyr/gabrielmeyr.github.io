@@ -26,7 +26,7 @@ Here's what we'll put in bookModel.js:
     title: 'unknown title',
     author: 'cool person'
   }
-});]({{ site.baseurl }}/images/2016-01/backbone1b.png )
+});]({{ site.baseurl }}/images/2016-01/backbone1b.jpg )
 
 We'll use this Book constructor we just made to instantiate a new model for each book we want in our table. The extend method adds our defaults property to the normal Backbone model constructor.
 
@@ -64,11 +64,11 @@ Let's write that bookView.js file now:
 
 ![var BookView = Backbone.View.extend({   tagName: 'tr',    template: _.template('&lt;td&gt;&lt;%= title %&gt;&lt;/td&gt;&lt;td&gt;&lt;%= author %&gt;&lt;/td&gt;'),      initialize: function(){     this.render();   },    render: function(){     return this.$el.html(this.template(this.model.attributes));   } });]({{ site.baseurl }}/images/2016-01/backbone1d.png )
 
-This looks a lot like our last view file. It has a tagname that specifies that this view will be a table. We also have `initialize` and `render` functions.But now in the `render` function fills in the `&lt;tr&gt;` tag's html by calling our `template` function with our model's attributes (meaning data) as a parameter.
+This looks a lot like our last view file. It has a tagname that specifies that this view will be a table. We also have `initialize` and `render` functions.But now in the `render` function fills in the `<tr>` tag's html by calling our `template` function with our model's attributes (meaning data) as a parameter.
 
 Templating functions are weird, but you don't have to fully understand them to use them. You can use libraries like Handlebars.js to do fancy templating, but I'm going to just use the template function of Underscore.js.
 
-The main idea with this function is you give it an html string and wherever you want to substitute in data from your model, you put the keyname of that data in between `&lt;%=` and `%&gt;`.
+The main idea with this function is you give it an html string and wherever you want to substitute in data from your model, you put the keyname of that data in between `<%=` and `%>;`.
 ##Index.html
 So now we have our model and views set up. Let's write an index file. I'll write comments for the 4 pieces of code we still have to write.
 
@@ -105,7 +105,7 @@ Here's what our index file looks like when we add in each of those snippets usin
 
 And we're done! Here's a screenshot of the table this makes:
 
-![Example of what table will look like]({{ site.baseurl }}/images/2016-01/backbone1g.png )
+![Example of what table will look like]({{ site.baseurl }}/images/2016-01/backbone1g.jpg )
 
 Congratulations on making it to the end! There's still more to learn if you want to make a full-fledged Backbone.js app, of course, but hopefully this blog post has helped you understand how to use models, collections, and views in a simple way.
 
