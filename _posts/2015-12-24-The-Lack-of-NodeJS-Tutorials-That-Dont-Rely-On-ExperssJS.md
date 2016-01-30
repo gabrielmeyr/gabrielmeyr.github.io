@@ -3,7 +3,7 @@ layout: post
 title: The Lack of NodeJS Tutorials That Don't Rely On ExpressJS
 ---
 
-This summer I started learning about servers (and code in general) for the first time. I downloaded Node and began trying to build a bare-bones back-end that would connect to a mongoDB database and let me build a project that I could use to apply to Hack Reactor. The trick is, I wanted to build it _without a framework_.
+This summer I started learning about servers (and code in general) for the first time. I downloaded Node and began trying to build a bare-bones back-end that would connect to a MongoDB database and let me build a project that I could use to apply to Hack Reactor. The trick is, I wanted to build it _without a framework_.
 
 For people new to this whole thing (which includes my self a month or two ago) I'll explain what a framework is. A framework is a code structure that you start out with and build projects on instead of literally writing everything from scratch yourself. The way apps are structured often falls into one of a few patterns, and a framework will wire up a basic outline of that pattern for you, as well as give you some added functionality that makes continuing to build on that pattern easier.
 
@@ -18,5 +18,8 @@ His follow-up, the Node Craftsman Book, was not as helpful for me.
 
 [Learn All The Nodes](https://www.learnallthenodes.com)
 This is a series of video tutorials that has some free ones then others you'll have to pay for. Looks like a lot of them are free though.  This is a new resource -- I don't think it was fully up and running even a few months ago when I needed it, but now that I am looking at it again it looks pretty nice. Their second video about [setting up a simple app](https://www.learnallthenodes.com/portal/episodes/2-a-simple-app) looks handy.
+
+I've written one relevant post about this: [Example of HTTP Request to MongoDB Database Without ExpressJS](http://gabrielmeyr.github.io/Example-of-HTTP-Request-To-MongoDB-Database-Without-ExpressJS/).
+
 
 More resources to come...maybe from me!
