@@ -19,7 +19,7 @@ His follow-up, the Node Craftsman Book, was not as helpful for me.
 [Learn All The Nodes](https://www.learnallthenodes.com)
 This is a series of video tutorials that has some free ones then others you'll have to pay for. Looks like a lot of them are free though.  This is a new resource -- I don't think it was fully up and running even a few months ago when I needed it, but now that I am looking at it again it looks pretty nice. Their second video about [setting up a simple app](https://www.learnallthenodes.com/portal/episodes/2-a-simple-app) looks handy.
 
-I've written one post about in this vein: [Example of HTTP Request to MongoDB Database Without ExpressJS](http://gabrielmeyr.github.io/Example-of-HTTP-Request-To-MongoDB-Database-Without-ExpressJS/).
+I've written one post in this vein: [Example of HTTP Request to MongoDB Database Without ExpressJS](http://gabrielmeyr.github.io/Example-of-HTTP-Request-To-MongoDB-Database-Without-ExpressJS/).
 
 
 More resources to come...maybe from me!
