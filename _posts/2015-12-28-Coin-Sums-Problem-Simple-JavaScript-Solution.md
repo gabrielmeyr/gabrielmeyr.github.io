@@ -4,7 +4,7 @@ title: Coin Sums Problem -- Simple JavaScript Solution
 ---
 The coin sum problem seems to be something that people in various programming languages try to tackle. The idea is that you have a money system with various coins all worth a different amount. Write a function that will tell you how many combinations of coins are possible that will result in a given total.
 
-The version of the problem I solved in JavaScript involves the money system in Great Britain which has coins with the following value: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p). The 'p' stands for 'pence'.(This scenario is also [problem #31 in Project Euler](https://projecteuler.net/problem=31).)
+The version of the problem I solved in JavaScript involves the money system in Great Britain which has coins with the following value: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p). The 'p' stands for 'pence'. (This scenario is also [problem #31 in Project Euler](https://projecteuler.net/problem=31).)
 
 I am going to describe in detail the "brute force" solution you will see if you google the problem. There is also an elegant (yet hard to follow) solution that I'm not going to address here. Google it if you're curious.
 
