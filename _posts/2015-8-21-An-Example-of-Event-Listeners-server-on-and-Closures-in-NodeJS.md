@@ -6,9 +6,9 @@ I just watched [a nice Tuts+ tutorial](https://www.youtube.com/watch?v=CoyIBRD6p
 
 If you are listening for a `request` event, be sure to include `res.end();` at the conclusion of your callback function to keep the client from hanging on, endlessly waiting for a request.
 
-.on is a method that the http object inherits from the EventEmitter class.
+.on is a method that the http module inherits from the EventEmitter class.
 
-Here's the sample server I made in this tutorial
+Here's the sample server I made using the Tuts+ tutorial:
 
 ```
 var http = require('http');
@@ -22,8 +22,10 @@ server.on('request', function(req, res){
 server.listen(8000);
 ```
 
-I can use the node documentation to see what events are emitted for different objects. See the bullets that start with "Event:" on this page, for example: <a href="https://nodejs.org/api/http.html" target="_blank">https://nodejs.org/api/http.html</a>
-<h2>Closures</h2>
+You can use the node documentation to see what events are emitted for different objects. See the bullets that start with "Event:" on this page, for example: <a href="https://nodejs.org/api/http.html" target="_blank">https://nodejs.org/api/http.html</a>
+
+##Closures
+
 To include a closure, pass in your function as an argument but wrap it in parentheses. That way it'll call the first function and close over, then call the code again and run the internal function you included in the code.
 
 Example:
@@ -48,6 +50,6 @@ setInterval(function(){
 
 ```
 
-I assume the function `setInterval` already exists natively in the environment and just takes a function then an interval as arguments and calls the function every interval. A quick Google-search confirmed my hunch.
+I assumed the function `setInterval` already exists natively in the environment and just takes a function then an interval as arguments and calls the function every interval. A quick Google-search confirmed my hunch.
 
 So why use a closure here instead of a normal function? I think it's to freeze our i variable into existence in a new, safe namespace.
