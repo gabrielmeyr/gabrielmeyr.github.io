@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Lack of Node.js Tutorials (That Don't Rely On Express.js)
+title: The Lack of NodeJS Tutorials That Don't Rely On ExpressJS
 ---
 
 This summer I started learning about servers (and code in general) for the first time. I downloaded Node and began trying to build a bare-bones back-end that would connect to a mongoDB database and let me build a project that I could use to apply to Hack Reactor. The trick is, I wanted to build it _without a framework_.
