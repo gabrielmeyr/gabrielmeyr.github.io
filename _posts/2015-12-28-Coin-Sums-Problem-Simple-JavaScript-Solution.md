@@ -22,6 +22,7 @@ One thing to note here is that instead of starting with a coin sum of zero, in t
 First declare your solution variable and lay out nested for loops that subtract the value of each coin, in order of most valuable coin to least. After all the loops, increment your solution count, because your loops have finished contributing coin values that get you from the total down to zero.
 
 Also make sure each for loop has a new var to iterate with so that the loops can work independently within each other instead of messing with each other's place.
+
 ```
 var coinSums = function(target){
   var solutions = 0;
@@ -44,13 +45,14 @@ var coinSums = function(target){
   }
   return solutions;
 };
-
 ```
+
 See how each for loop takes the starting value of its var from the current value of the iterator immediately preceding it (example: _var b = a_)? That means that if we have already taken 200 from the total and var a is now equal to 1, then var b is starting with that current value of a also and we maintain our progress toward zero.
 
 So if our target is 250, a starts out as being equal to 250. Then after our a loop runs, a is now equal to just 50 and our b loop starts out with b equal to 50.
 ##Between The Apostrophes
 The next question is, what is the condition that should cause each loop to stop. My first thought was that we let loops run while the var was above 0.  If we do that, we find that the function runs, it just finds _too many_ solutions.
+
 ```
 var coinSums = function(target){
   var solutions = 0;
@@ -73,9 +75,11 @@ var coinSums = function(target){
   }
   return solutions;
 };
-
 ```
+
+
 That's happening because we are counting it as a solution every time we add a penny, not just when we add the final penny in a combination. So let's wrap our solution iterator in an if statement that checks if our total is down to zero, an indication that we have added the final coin (whether it was a penny or a previous coin).
+
 ```
 var coinSums = function(target){
   var solutions = 0;
@@ -100,12 +104,13 @@ var coinSums = function(target){
   }
   return solutions;
 };
-
 ```
+
 ##Wait A Second...
 Okay, that makes sense. But now our function is actually not finding <em>any </em>solutions.
 
 This is because we are only iterating when we reach zero, but our for loops aren't allowed to keep going if our running total is zero or lower. Let's change it so that they allow zero values for the iterator.
+
 ```
 var coinSums = function(total){
   solutions = 0;
@@ -131,6 +136,7 @@ var coinSums = function(total){
   return solutions;
 };
 ```
+
 And that's -- we're done! Our solution may not be the prettiest out there, but it works. It finds 1 solution if you are trying to make change for 1p, and 25 solutions if you are trying to make change for 17p. Now when do we get to visit Great Britain!
 
 Way to hang in there through this thing. One of these days I'll try to makes sense of and explain the more elegant solution.
