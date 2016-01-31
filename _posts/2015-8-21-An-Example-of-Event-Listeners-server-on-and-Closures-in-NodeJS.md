@@ -34,15 +34,15 @@ Example:
 var events = require('events');
 var em = new events.EventEmitter();
 
-// sets up the event listener</em>
+// sets up the event listener
 em.on('timedEvent', function(interval){
   console.log('Interval: ' + interval);
 });
 
-/ /sets up the event emitter
+// sets up the event emitter
 setInterval(function(){
   var i = 0;
-  return function(){   <em>//first function layer frozen</em>
+  return function(){   //first function layer frozen
     i++;
     em.emit('timedEvent', i);
     }
