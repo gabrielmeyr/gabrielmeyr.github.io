@@ -3,7 +3,8 @@ layout: post
 title: 7 Angular Directives For Beginners To Know
 ---
 
-Since this post is for angular beginners, let me clarify one thing about directives up front. When referring to directives in a javascript file, you should do it in camel case, and when using a directive in an html file you should use all lower-case and separate words with dashes.
+
+Since this post is for Angular beginners, let me clarify one thing about directives up front. When referring to directives in a javascript file, you should do it in camel case, and when using a directive in an html file you should use all lower-case and separate words with dashes.
 
 For example, if you use `ngSrc` in an html file you should write it like this `ng-src`.
 
@@ -23,4 +24,6 @@ Then accessing the element's value in your controller
 
 ##2. ng-repeat
 
-Think of this directive as a way t
+When you have a list of items that are stored on your scope,  you don't always know how many there will be, or it might change over time, so you can't display them using `<li>` HTML tags like you normally would. 
+
+If you throw an ngRepeat tag in a HTML element (like a `li`)
