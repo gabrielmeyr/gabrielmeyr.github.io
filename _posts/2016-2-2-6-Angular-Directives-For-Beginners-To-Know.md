@@ -22,7 +22,7 @@ This can be demonstrated without a JavaScript file at all. Here's a simple examp
 
 <script src="https://gist.github.com/GMeyr/a9e50718702549118ad8.js"></script>
 
-As you type into the input field, ngModel would print the text to the screen above it. The data is also available on the scope to your JavaScript files under the variable name $scope.myInput.
+In this example, as you type into the input field, the data is stored as a string in ngModel and printed to the screen.
 
 ##2. ngRepeat
 
