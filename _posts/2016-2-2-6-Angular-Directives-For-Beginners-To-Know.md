@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 7 Angular Directives For Beginners To Know
+title: 6 Angular Directives For Beginners To Know
 ---
 
 
