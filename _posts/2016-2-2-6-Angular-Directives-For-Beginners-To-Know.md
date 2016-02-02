@@ -10,6 +10,8 @@ For example, one directive in JavaScript would be `ngSrc`, while in HTML it woul
 
 The other thing to know is that Angular comes with a lot of helpful directives baked right in, and we'll be looking at some of them in this post. But there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an npm module, and you can also write your own.
 
+Now here's a look at 6 basic, but very important Angular directives.
+
 ##1. ngModel
 
 This one probably came up for you already in whatever course, book, or blog introduced you to Angular. That's because it is an easy way to demonstrate Angular's two-way data-binding.
