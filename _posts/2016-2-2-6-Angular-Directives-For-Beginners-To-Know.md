@@ -12,7 +12,7 @@ The other thing to know is that Angular comes with a lot of helpful directives b
 
 ##1. ngModel
 
-This one probably came up for you already in whatever course, book, or blog introduced you to Angular. That's because it is an easy way to demonstrate Angular's two-way data-binding. But in case it didn't, you should learn it now.
+This one probably came up for you already in whatever course, book, or blog introduced you to Angular. That's because it is an easy way to demonstrate Angular's two-way data-binding.
 
 The main idea here is that whatever property you define using this directive will store the value of that element on the scope using that property.
 
