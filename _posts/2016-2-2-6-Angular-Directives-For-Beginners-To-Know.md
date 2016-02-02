@@ -6,7 +6,7 @@ title: 6 Angular Directives For Beginners To Know
 
 Since this post is directed toward beginners, let me clarify one thing before we go on about the way their names are written. When referring to a directive in a JavaScript file, you should do it in camel case, and when using a referring to one in HTML you should use all lower-case and separate words with dashes.
 
-For example, JavaScript would be `ngSrc`, while HTML would write it `ng-src`.
+For example, one directive in JavaScript would be `ngSrc`, while in HTML it would be `ng-src`.
 
 The other thing to know is that Angular comes with a lot of helpful directives baked right in, but there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an npm module. you can also write your own. But all of these examples will be normal Angular directives baked right  into the framework.
 
