@@ -8,7 +8,7 @@ Since this post is directed toward beginners, let me clarify one thing before we
 
 For example, one directive in JavaScript would be `ngSrc`, while in HTML it would be `ng-src`.
 
-The other thing to know is that Angular comes with a lot of helpful directives baked right in, but there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an npm module. you can also write your own. But all of these examples will be normal Angular directives baked right  into the framework.
+The other thing to know is that Angular comes with a lot of helpful directives baked right in, and we'll be looking at some of them in this post. But there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an npm module, and you can also write your own.
 
 ##1. ngModel
 
