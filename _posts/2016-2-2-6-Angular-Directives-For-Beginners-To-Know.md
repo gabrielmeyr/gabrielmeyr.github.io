@@ -91,5 +91,23 @@ Notice that this example also uses ngRepeat, which we went over earlier.
 
 <script src="https://gist.github.com/GMeyr/6d8567e201a843d1548b.js"></script>
 
+##6. ngSrc
+
+This directive is used a lot like ngClass is, but it sets the `src` attribute for an image instead of setting a class attribute.
+
+So if you wanted to include an image of each puppy and kitten in our previous example, you could add an ngSrc attribute like this:
+
+<script src="https://gist.github.com/GMeyr/6a965d73855f6c513bd6.js"></script>
+
+<script src="https://gist.github.com/GMeyr/02ebe082fc7731abdaa1.js"></script>
+
+<script src="https://gist.github.com/GMeyr/19baf9fc3305e48602a4.js"></script>
+
+Here's what that code will look like:
+
+![Screenshot of list of pet names with pictures]({{ site.baseurl }}/images/2016-01/ngSrc-pets.png)
+
+How rewarding/cute is that!
+
 
 
