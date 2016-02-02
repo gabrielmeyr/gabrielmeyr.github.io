@@ -56,4 +56,17 @@ If you had a button that changed the value of $scope.helpMessage back to false, 
 
 You can also use the directive ngHide if you want to show/hide elements using the opposite boolean values.
 
+##4. ngSubmit
+
+ngSubmit is pretty simple, but also pretty handy. Normally submitting an HTML form triggers a POST request with the input data. ngSubmit prevents that default action and instead calls a function to do whatever you want with the input data.
+
+<script src="https://gist.github.com/GMeyr/c10ded67c1ff0b7d1688.js"></script>
+
+<script src="https://gist.github.com/GMeyr/ddec397969c02c5b8a9c.js"></script>
+
+If I typed in 'koala' in the input field there and clicked submit, an alert would pop up saying 'Your favorite animal is a koala' and no POST request would be triggered.
+
+If you want this kind of power when someone click a button that doesn't involve  a form, use the ngClick directive instead.
+
+##5. ngClass
 
