@@ -8,7 +8,7 @@ Since this post is for Angular beginners, let me clarify one thing about directi
 
 For example, if you use `ngSrc` in an html file you should write it like this `ng-src`.
 
-Okay, the other thing to know is that Angular comes with a lot of helpful directives baked right in, but there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an : libarary. I'll just include one of these third-party directives at the end as an example, the rest will all be included in Angular.
+Okay, the other thing to know is that Angular comes with a lot of helpful directives baked right in, but there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an : libarary. All of these examples will be normal Angular directives baked right  into the framework, though.
 
 ##1. ngModel
 
@@ -28,6 +28,10 @@ When you have a list of items that are stored on your scope,  you don't always k
 
 If you throw an ngRepeat tag in a HTML element (like a `li`), it will automatically create the right number of items to fit your data.
 
+The value of the ngRepeat attribute is similar to the way a for loop is used on objects. To loop through the array stored on the $scope as 'stooges', I tell ngRepeat to loop through each 'name in stooges'. I could say 'person in stooges' or 'stooge in stooges' because the first word is just the name we are going to use as the iterating variable.
+
+Then within the repeated HTML we refer to the current item in the list by the name of our iterating variable, which in this case, is 'name'.
+
 Here's an example of using ngRepeat a `<tbody>` tag to repeat rows in a table:
 
 <script src="https://gist.github.com/GMeyr/33765a6687a77d3937a2.js"></script>
@@ -39,6 +43,9 @@ This will print the following on the screen:
 Curly
 Moe
 Larry
+
+If you have objects stored in an array instead of strings, you can access the properties on each object using dot notation. You can see an example of this when you get down to #5.
+
 
 ##3. ngShow
 
@@ -69,4 +76,20 @@ If I typed in 'koala' in the input field there and clicked submit, an alert woul
 If you want this kind of power when someone click a button that doesn't involve  a form, use the ngClick directive instead.
 
 ##5. ngClass
+
+ngClass allows you to use an expression to determine what class (or classes) will be assigned to an element. We're going to look at how to use an expression that returns a string to provide a class. You can use this directive to assign class using arrays and objects ([see the documentation here](https://docs.angularjs.org/api/ng/directive/ngClass)). We're going to keep it simple for now, though.
+
+Say I want to display the names of puppies and kittens in a list. I don't want to label them as puppy or kitten though, I just want the names of puppies to be in blue and the names of kittens to be in red.
+
+To do this, I'll create two classes in my stylesheet, puppy and kitten, and use ngClass to automatically assign the right class to each list item.
+
+Notice that this example also uses ngRepeat, which we went over earlier.
+
+<script src="https://gist.github.com/GMeyr/19e088d7f4d7c242c570.js"></script>
+
+<script src="https://gist.github.com/GMeyr/fea056da453cda4dd41e.js"></script>
+
+<script src="https://gist.github.com/GMeyr/6d8567e201a843d1548b.js"></script>
+
+
 
