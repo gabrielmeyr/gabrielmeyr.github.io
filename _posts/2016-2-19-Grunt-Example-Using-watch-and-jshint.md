@@ -2,6 +2,9 @@
 layout: post
 title: Grunt Example Using watch and jshint
 ---
+
+__tl;dr: See an example of the complete file at the end of this post.__
+
 This post will help you create a basic file that lets you run Grunt, and also show you how to make Grunt watch your files and automatically run jshint on when you change them.
 
 The three main sections of a Gruntfile are:
@@ -15,8 +18,6 @@ So run `npm install grunt` in your project's root directory using the terminal, 
 ## Step 1: Make a Gruntfile
 
 You need a file called Gruntfile.js in your root directory to run Grunt. You can have Grunt walk through the creation of a file with you (kind of like how `npm init` will interactively help you create a package.json file). You would type `grunt init:gruntfile` in your terminal to do that. But we're going to make our own Gruntfile to show you how easy the basics are and keep some clutter out.
-
-You can see an example of the complete file at the end of this post.
 
 So make a new file in your root directory called Gruntfile.js. Start out by putting this code into it:
 
