@@ -3,9 +3,9 @@ layout: post
 title: Grunt Example Using watch and jshint
 ---
 
-__tl;dr: See an example of the complete file at the end of this post.__
-
 This post will help you create a basic file that lets you run Grunt, and also show you how to make Grunt watch your files and automatically run jshint on when you change them.
+
+__tl;dr: See an example of the complete file at the end of this post.__
 
 The three main sections of a Gruntfile are:
 
