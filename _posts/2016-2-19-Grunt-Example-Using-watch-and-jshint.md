@@ -16,6 +16,8 @@ So run `npm install grunt` in your project's root directory using the terminal, 
 
 You need a file called Gruntfile.js in your root directory to run Grunt. You can have Grunt walk through the creation of a file with you (kind of like how `npm init` will interactively help you create a package.json file). You would type `grunt init:gruntfile` in your terminal to do that. But we're going to make our own Gruntfile to show you how easy the basics are and keep some clutter out.
 
+You can see an example of the complete file at the end of this post.
+
 So make a new file in your root directory called Gruntfile.js. Start out by putting this code into it:
 
 ```
@@ -47,14 +49,14 @@ module.exports = function(grunt) {
         'src/*.js'
       ],
     }
-  },
 
     watch: { //watch does not need to be registered as a task
       files: [
-        'src/*.js'
+        '<%= jshint.files %>'
       ],
       tasks: ['jshint']
-    });
+    }
+  });
 
   grunt.loadNpmTasks();
 
@@ -83,8 +85,7 @@ module.exports = function(grunt) {
       ],
       tasks: ['jshint']
     }
-  }
-);
+  });
 
   grunt.loadNpmTasks();
 
@@ -112,12 +113,11 @@ module.exports = function(grunt) {
     },
     watch: { //watch does not need to be registered as a task
       files: [
-        'src/*.js'
+        '<%= jshint.files %>'
       ],
       tasks: ['jshint']
     }
-  }
-);
+  });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -143,4 +143,8 @@ You're done with the file! Now let's run it. (Be sure you've closed the `module.
 Go to the command line and type 'grunt' from your root directory of the project. It will run jshint on your files. (If it doesn't, make sure you don't have any typos in your Gruntfile and that you npm installed the dependencies.)
 
 And for something even more exciting, type `grunt watch` in the command line. Now go change something in one of your watched files, save it, and presto! It runs jshint automatically. Pretty cool, especially considering you can have the watch task fun more than just jshint.
+
+## Example of complete Gruntfile
+<script src="https://gist.github.com/GMeyr/ba2c6a1afb47e8f188d5.js"></script>
+
 
