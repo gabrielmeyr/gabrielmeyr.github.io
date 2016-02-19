@@ -4,23 +4,25 @@ title: 6 Angular Directives For Beginners To Know
 ---
 
 
-Since this post is for Angular beginners, let me clarify one thing about directives up front. When referring to directives in a javascript file, you should do it in camel case, and when using a directive in an html file you should use all lower-case and separate words with dashes.
+Since this post is directed toward beginners, let me clarify one thing before we go on about the way their names are written. When referring to a directive in a JavaScript file, you should do it in camel case, and when using a referring to one in HTML you should use all lower-case and separate words with dashes.
 
 For example, JavaScript: `ngSrc`, and HTML: `ng-src`.
 
-Okay, the other thing to know is that Angular comes with a lot of helpful directives baked right in, but there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an : libarary. All of these examples will be normal Angular directives baked right  into the framework, though.
+The other thing to know is that Angular comes with a lot of helpful directives baked right in, and we'll be looking at some of them in this post. But there are also lots of 3rd party directives that you can quickly bring in to your own code, sort of like an npm module, and you can also write your own.
+
+Now here's a look at 6 basic, but very important Angular directives.
 
 ##1. ngModel
 
-This one probably came up for you already in whatever course, book, or blog introduced you to Angular. That's because it is an easy way to demonstrate Angular's two-way data-binding. But in case it didn't, you should learn it now.
+This one probably came up for you already in whatever course, book, or blog introduced you to Angular. That's because it is an easy way to demonstrate Angular's two-way data-binding.
 
-The main idea here is that whatever property you define using this directive will store the value of that element on the scope using that property.
+The main idea is that whatever property you define using this directive will store the value of that element on the scope using that property.
 
 This can be demonstrated without a JavaScript file at all. Here's a simple example using HTML:
 
 <script src="https://gist.github.com/GMeyr/a9e50718702549118ad8.js"></script>
 
-As you type into the input field, ngModel would print the text to the screen above it. The data is also available on the scope to your JavaScript files under the variable name $scope.myInput.
+In this example, as you type into the input field, the data is stored as a string in ngModel and printed to the screen.
 
 ##2. ngRepeat
 
