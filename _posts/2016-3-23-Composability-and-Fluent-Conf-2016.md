@@ -3,7 +3,7 @@ layout: post
 title: Composability and Fluent Conf 2016
 ---
 
-![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.png "William Ngywen(left), myself (middle), and Cole Bradley")
+![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.jpg "William Ngywen(left), myself (middle), and Cole Bradley")
 
 I had the chance to go to O'Reilly's Fluent Conf in San Francisco this month and it was an exciting time. 
 
