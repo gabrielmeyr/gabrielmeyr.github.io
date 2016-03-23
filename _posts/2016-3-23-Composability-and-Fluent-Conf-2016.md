@@ -5,7 +5,7 @@ title: Composability and Fluent Conf 2016
 
 I had the chance to go to O'Reilly's Fluent Conf in San Francisco this month and it was an exciting time. 
 
-![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.jpg "William Ngywen(left), myself (middle), and Cole Bradley")
+![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.JPG "William Ngywen(left), myself (middle), and Cole Bradley")
 
 One presentation I really liked was from Dave King at Exaptive called "Helping your code take flight with the right abstractions". He blended object-oriented and functional programming concepts to demonstrate an abstraction approach that emphasizes not just modularity and loose-coupling, but composability.
 
