@@ -3,13 +3,11 @@ layout: post
 title: Composability and Fluent Conf 2016
 ---
 
-![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.jpg "William Ngywen(left), myself (middle), and Cole Bradley")
-
 I had the chance to go to O'Reilly's Fluent Conf in San Francisco this month and it was an exciting time. 
 
-One presentation I really liked was from Dave King at Exaptive called "Helping your code take flight with the right abstractions",
+![picture of myself with two friends at Fluent Conf in SF]({{ site.baseurl }}/images/2016-03/fluent.jpg "William Ngywen(left), myself (middle), and Cole Bradley")
 
-He blended object-oriented and functional programming concepts to demonstrate an abstraction approach that emphasizes not just modularity and loose-coupling, but composability.
+One presentation I really liked was from Dave King at Exaptive called "Helping your code take flight with the right abstractions". He blended object-oriented and functional programming concepts to demonstrate an abstraction approach that emphasizes not just modularity and loose-coupling, but composability.
 
 I realize that was a lot of jargon, so an explanation in layman's terms is that it is good for code to be built in maintainable units that plug in together, but it is even better to make each unit's inputs flexible enough that it could be useful for someone else's purpose that you never imagined.
 
