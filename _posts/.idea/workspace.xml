@@ -24,9 +24,41 @@
       <file leaf-file-name="2016-6-25-Freelancing-at-the-Top(tal)-of-The-Heap.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2016-6-25-Freelancing-at-the-Top(tal)-of-The-Heap.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="359" selection-start-line="12" selection-start-column="359" selection-end-line="12" selection-end-column="359" />
+            <state relative-caret-position="540">
+              <caret line="20" column="306" selection-start-line="20" selection-start-column="306" selection-end-line="20" selection-end-column="306" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-2-2-6-Angular-Directives-For-Beginners-To-Know.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2016-2-2-6-Angular-Directives-For-Beginners-To-Know.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-12-24-The-Lack-of-NodeJS-Tutorials-That-Dont-Rely-On-ExperssJS.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2015-12-24-The-Lack-of-NodeJS-Tutorials-That-Dont-Rely-On-ExperssJS.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -211,12 +243,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466905094451</updated>
       <workItem from="1466905099561" duration="168000" />
-      <workItem from="1466905299908" duration="3232000" />
+      <workItem from="1466905299908" duration="3348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3400000" />
+    <option name="totallyTimeSpent" value="3516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1425" y="173" width="1400" height="877" extended-state="0" />
@@ -338,10 +370,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2016-2-2-6-Angular-Directives-For-Beginners-To-Know.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2015-12-24-The-Lack-of-NodeJS-Tutorials-That-Dont-Rely-On-ExperssJS.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2016-6-25-Freelancing-at-the-Top(tal)-of-The-Heap.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="359" selection-start-line="12" selection-start-column="359" selection-end-line="12" selection-end-column="359" />
+        <state relative-caret-position="540">
+          <caret line="20" column="306" selection-start-line="20" selection-start-column="306" selection-end-line="20" selection-end-column="306" />
           <folding />
         </state>
       </provider>
