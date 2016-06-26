@@ -13,10 +13,10 @@ Toptal cuts through the clutter of freelancing in three important ways:
     - On average, only 3% of developers pass their screening process each month. Companies like that because they know no matter who they end up working with, if they got them through Toptal, they're going to be good. And for software engineers like me, that's music to my ears. I know that all I have to do is prove I've got the skills, and then magically most of the other developers I'm competing with are gone.
 
 2. **They only work with great companies like Airbnb**
-    -I don't have to worry about collecting payment being a hassle, or shady companies, or people who don't really know what they want. Because these companies have a reputation that Toptal has already approved, most of the headaches that pop up around freelance development are gone also. _Poof!_ Now I can focus on what I do best, writing great code.constructor
+    - I don't have to worry about collecting payment being a hassle, or shady companies, or people who don't really know what they want. Because these companies have a reputation that Toptal has already approved, most of the headaches that pop up around freelance development are gone also. _Poof!_ Now I can focus on what I do best, writing great code.constructor
 
 3. **Most of the companies going through Toptal are looking for longer term commitments**
-    -These may range from a couple months to a year or more. Some of the companies have contract-to-hire in the back of their minds if you want that.  This eliminates the other major frustration of freelance work, constantly looking for your next gig. If we were to compare it to the world of relationships, this isn't some kind of fling like a lot of freelance contracts, this is a steady relationship. It's not marriage, a salaried job, but it is a real relationship.
+    - These may range from a couple months to a year or more. Some of the companies have contract-to-hire in the back of their minds if you want that.  This eliminates the other major frustration of freelance work, constantly looking for your next gig. If we were to compare it to the world of relationships, this isn't some kind of fling like a lot of freelance contracts, this is a steady relationship. It's not marriage, a salaried job, but it is a real relationship.
 
 If you're the kind of developer avoiding contract work because you love coding more than looking for and managing clients, then Toptal is just the kind of marketplace that could make a side gig pleasurable for you. And that's why I'm applying for it now.
 
